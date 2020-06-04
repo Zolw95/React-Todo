@@ -41,14 +41,7 @@ export default class TodoForm extends Component {
             className="btn btn-primary btn-block"
           />
         </div>
-        <div>
-          <button
-            onClick={this.props.clearCompleted}
-            className="btn btn-light btn-block"
-          >
-            Clear Completed
-          </button>
-        </div>
+        <div></div>
       </form>
     );
   }
